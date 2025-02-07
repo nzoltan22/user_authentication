@@ -26,8 +26,7 @@ class HomeController
         
         $result = $user->getuser();        
         
-        $this->view = new View();    
-        $this->view->load("home", [
+        (new View())->load("home", [
             'error' => $error,
             'username' => $result['name'],
             'usercontent' => $result['content']

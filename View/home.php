@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>Tesztfeladat</title>
+    <title>Felhasználói autentikáció</title>
 </head>
         
 <body>
@@ -35,14 +35,16 @@
 </table>   
 </form>
 <?else:?>
-<form method="POST">    
-    <input type="submit" name="submit" value="Logout">
-</form>
 <table align="center">
     <tr align="center" valign="top"><td><p>
     <?=$usercontent?>
     </p></td></tr>
 </table>
+<center>
+<form method="POST">    
+    <input type="submit" name="submit" value="Logout">
+</form>
+</center>
 <?endif?>
     
 </body>
