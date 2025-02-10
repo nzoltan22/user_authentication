@@ -28,6 +28,6 @@ http://nzoltan2.nhely.hu/user_authentication/
 **Telepítési instrukciók:**
 - Letöltés után a projekt könyvtárában a vendor könyvtár létrehozásáához a **composer update** parancs kiadása szükséges.
 - A php.ini-ben a **short_open_tag=On** beállítás szükséges.
-- Az adatbázishoz való kapcsolódás host, adatbázisnév, usernév és jelszó a config.php-nen állítható be.
-- A szükséges adattáblák az SQL/localhost.sql mysql dumppal hozhatók létre.
+- Az adatbázishoz való kapcsolódás host, adatbázisnév, usernév és jelszó a **config.php**-ben állítható be.
+- A szükséges adattáblák az **SQL/localhost.sql** mysql dumppal hozhatók létre.
 
